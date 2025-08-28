@@ -1,0 +1,51 @@
+# Featured Projects
+
+::: {.quote}
+*"Information is the oil of the 21st century, and analytics is the combustion engine."* — Peter Sondergaard.
+:::
+
+::: {.project-cards}
+
+::: {.project-card}
+![](img/projects/FetalHealth.jpg)
+
+::: {.project-card-content}
+### Fetal Health ML Analysis
+
+Machine learning-based fetal health classification system using cardiotocography data. Compares multiple algorithms (XGBoost, Random Forest, MLP, Logistic Regression) for predicting fetal health status with 95.9% accuracy.
+
+**Tech:** Python, Scikit-learn, Pandas, etc.
+
+[GitHub](https://github.com/kduffuor/Fetal-Health-ML-Analysis){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+![](img/projects/BrainTumor.jpg)
+
+::: {.project-card-content}
+### Brain Tumor VGG16 Transfer Learning
+
+Deep learning brain tumor classification using fine-tuned VGG16 with transfer learning. Achieves 89% accuracy in classifying MRI scans into 4 categories: glioma, meningioma, pituitary tumor, and no tumor.
+
+**Tech:** TensorFlow, PIL, NumPy, etc.
+
+[GitHub](https://github.com/kduffuor/Brain-Tumor-VGG16-Transfer-Learning){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+![](img/projects/PyHealth.jpg)
+
+::: {.project-card-content}
+### Python Refresher with Simulated Healthcare Data
+
+A Python fundamentals refresher using simulated healthcare datasets to demonstrate core programming concepts, data analysis, and visualization techniques.
+
+**Tech:** Pandas, Matplotlib, Seaborn, etc.
+
+[GitHub](https://github.com/kduffuor/Python-Refresher-Simulated-Health){target="_blank"}
+:::
+:::
+
+:::

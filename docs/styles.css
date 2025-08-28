@@ -1,0 +1,267 @@
+/* Sticky NavBar and slightly transparent*/
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease;
+}
+/* Sticky NavBar Ends*/
+
+/* About Links - Social media icon buttons */
+.about-links .about-link {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+
+    border-radius: 50% !important;
+    background-color: #343a40 !important;
+    color: white !important;
+
+    transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.about-links .about-link:hover {
+    transform: scale(1.15);
+    background-color: #0d6efd !important;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+    color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-links {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 0.75rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .about-links .about-link {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+        font-size: 1.25rem !important;
+    }
+}
+/* About Ends */
+
+/* Generic quote */
+.quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+/* Generic quote Ends */
+
+/* Projects CSS */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  padding: 2rem 0rem;
+}
+
+.project-card {
+  flex: 1 1 calc(33.33% - 1rem);
+  background-color: #f8f9fa;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.project-card img,
+.project-card p img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  display: block;
+}
+
+.project-card-content {
+  padding: 1rem;
+  padding-bottom: 0.75rem;
+}
+
+.project-card-content > :last-child {
+  margin-bottom: 0;
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex: 1 1 100%;
+  }
+  
+  .project-card img {
+    height: 180px;
+  }
+}
+/* Projects CSS Ends */
+
+/* Minimal Timeline */
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #333;
+}
+
+.timeline-item {
+  position: relative;
+  width: 45%;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  left: 55%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #333;
+  border-radius: 50%;
+  top: 0.8rem;
+}
+
+.timeline-item:nth-child(odd)::before {
+  right: -16px;
+}
+
+.timeline-item:nth-child(even)::before {
+  left: -16px;
+}
+
+@media (max-width: 768px) {
+  .timeline::before { left: 15px; }
+  .timeline-item { width: calc(100% - 30px); left: 25px !important; text-align: left; }
+  .timeline-item::before { left: -19px !important; }
+}
+/* Minimal Timeline Ends */
+
+/* Creative Smooth Accordion */
+.experience-accordion details {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.experience-accordion details:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transform: translateY(-1px);
+}
+
+.experience-accordion summary {
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-accordion summary::marker {
+  display: none;
+}
+
+.experience-accordion summary::after {
+  content: "→";
+  font-size: 1.2rem;
+  color: #007bff;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform-origin: center;
+}
+
+.experience-accordion details[open] summary::after {
+  transform: rotate(90deg);
+  color: #28a745;
+}
+
+.experience-accordion details > div {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease-out;
+}
+
+.experience-accordion details[open] > div {
+  grid-template-rows: 1fr;
+}
+
+.experience-accordion details > div > * {
+  overflow: hidden;
+  padding: 0 1.25rem 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease 0.1s;
+}
+
+.experience-accordion details[open] > div > * {
+  opacity: 1;
+}
+/* Creative Smooth Accordion Ends */

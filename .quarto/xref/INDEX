@@ -1,0 +1,32 @@
+{
+  "about.qmd": {
+    "about.html": "1b235191"
+  },
+  "index.qmd": {
+    "index.html": "9a30e2ab"
+  },
+  "projects.qmd": {
+    "projects.html": "5c238a79"
+  },
+  "journey.qmd": {
+    "journey.html": "489e5928"
+  },
+  "blog/post1.qmd": {
+    "post1.html": "d695af74"
+  },
+  "blog/post2.qmd": {
+    "post2.html": "2bd3b81c"
+  },
+  "blog.qmd": {
+    "blog.html": "737ad785"
+  },
+  "blog/post3.qmd": {
+    "post3.html": "7565a7bc"
+  },
+  "blog/post4.qmd": {
+    "post4.html": "ff266052"
+  },
+  "resume.qmd": {
+    "resume.html": "89ecd210"
+  }
+}

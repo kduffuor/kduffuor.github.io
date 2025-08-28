@@ -1,0 +1,6 @@
+---
+title: ""
+editor: visual
+---
+
+![](resume/Kwabena%20Duffuor%20Resume.pdf){width="100%" height="800"}

@@ -1,0 +1,78 @@
+# Journey so far
+::: {.quote}
+*"Learning never exhausts the mind."* — Leonardo da Vinci
+:::
+
+# 🎓 Education
+
+::: {.timeline}
+
+::: {.timeline-item}
+**MPS in Informatics**  
+_Northeastern University, Canada_  
+**2024 – Present**  
+Concentration: Data Science & Health Analytics
+:::
+
+::: {.timeline-item}
+**MPhil in Computer Science**  
+_University of Energy and Natural Resources_  
+**2021 – 2023**  
+Focused on Artificial Intelligence and Software Engineering.
+:::
+
+::: {.timeline-item}
+**BSc in Information Technology Education**  
+_University of Education, Winneba_  
+**2016 – 2020**  
+Blended Computer Science with Pedagogical Technology.
+:::
+
+:::
+<!-- end timeline -->
+
+
+# 💼 Professional Experience
+
+::: {.experience-accordion}
+
+<details>
+<summary><strong>Retail Specialist (Part-Time) – Freedom Mobile Inc.</strong>  
+<small>August 2024 – Present</small></summary>
+
+- Engage customers to convert visitors into loyal Freedom Mobile customers
+- Promote and demonstrate Freedom Mobile products and services
+- Collaborate with team members to achieve sales incentives in fast-paced environment
+</details>
+
+<details>
+<summary><strong>Research & Data Analyst – UENR (Computer Science Department)</strong>  
+<small>February 2022 – January 2024</small></summary>
+
+- Conducted comprehensive data analysis using Python (Pandas, NumPy) to support research projects
+- Implemented machine learning models using TensorFlow, PyTorch, and Keras for predictive analytics
+- Designed and executed data collection methodologies, ensuring data integrity and reliability
+</details>
+
+<details>
+<summary><strong>Data Analyst – Ghana Statistical Service (Co-led, Remote)</strong>  
+<small>June 2021 – September 2023</small></summary>
+
+- Analyzed large datasets using SQL and Python to identify patterns and trends
+- Created interactive dashboards using Tableau and Power BI to visualize research findings for stakeholders
+- Designed and implemented effective data collection methodologies
+Managed and cleaned large datasets to ensure accuracy and reliability of findings
+</details>
+
+<details>
+<summary><strong>Science, Math & IT Educator – Various Educational Institutions</strong>  
+<small>January 2013 – April 2024</small></summary>
+
+- Delivered technical instruction in Science, Mathematics, and ICT across Junior and Senior high school levels
+- Implemented varied teaching techniques to meet visual, kinesthetic, and auditory learners' needs
+- Encouraged innovative thinking and practical skills development among students
+- Provided comprehensive IT technical support to school administration
+</details>
+
+:::
+<!-- end experience-accordion -->

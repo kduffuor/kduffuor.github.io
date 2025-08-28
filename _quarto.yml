@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kduff™"
+  favicon: favicon.ico
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: journey.qmd
+        text: Journey
+      - href: blog.qmd
+        text: Blog
+      - href: resume.qmd
+        text: Resume
+  page-footer:
+    center: "© 2025 Kwabena Duffuor — Built with 💕 [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo dark
+      - brand
+    css: styles.css
+    toc: true
+    anchor-sections: false
+

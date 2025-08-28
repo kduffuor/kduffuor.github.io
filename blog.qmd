@@ -1,0 +1,21 @@
+---
+title: ""
+page-layout: article
+
+listing:
+  type: grid
+  contents: blog
+  sort: "date desc"
+  fields: [title, date, description]
+  categories: true
+---
+
+# Research & Reflections
+
+::: {.quote}
+*"Writing is thinking made visible."* — William Zinsser
+:::
+
+::: {.quote}
+Welcome to my thoughts and lessons across analytics, AI, and health informatics.
+:::
