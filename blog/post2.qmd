@@ -2,11 +2,8 @@
 title: ""
 description: ""
 date: 2025-07-24
-categories: [Explainable AI (XAI), Machine Learning & AI Ethics, Financial Technology (FinTech), Customer Experience & Service]
-format:
-  html:
-    toc: false
-    code-fold: true
+categories: [Machine Learning, Explainable AI, AI Ethics]
+format: html
 ---
 
 # From Customer Service to AI Explainability: Why SHAP Matters in the Real World

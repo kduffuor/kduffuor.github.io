@@ -40,38 +40,37 @@ Blended Computer Science with Pedagogical Technology.
 <summary><strong>Retail Specialist (Part-Time) – Freedom Mobile Inc.</strong>  
 <small>August 2024 – Present</small></summary>
 
-- Engage customers to convert visitors into loyal Freedom Mobile customers
-- Promote and demonstrate Freedom Mobile products and services
-- Collaborate with team members to achieve sales incentives in fast-paced environment
+- Deliver tailored mobile solutions by analyzing customer usage data and identifying cost-effective plans.
+- Utilized recommendation systems to suggest optimal mobile plans based on usage patterns and customer preferences.
+- Assisted in optimizing inventory levels by maintaining sales data reports and stock turnover analysis.
 </details>
 
 <details>
 <summary><strong>Research & Data Analyst – UENR (Computer Science Department)</strong>  
 <small>February 2022 – January 2024</small></summary>
 
-- Conducted comprehensive data analysis using Python (Pandas, NumPy) to support research projects
-- Implemented machine learning models using TensorFlow, PyTorch, and Keras for predictive analytics
-- Designed and executed data collection methodologies, ensuring data integrity and reliability
+- Conducted in-depth statistical analysis using Python (Pandas, NumPy) to support institutional research.
+- Designed and implemented convolutional neural networks for gestational diabetes prediction, achieving 83% diagnostic accuracy to support early intervention and maternal healthcare decision-making.
+- Prepared reports and executive summaries to present findings to faculty and research teams.
 </details>
 
 <details>
 <summary><strong>Data Analyst – Ghana Statistical Service (Co-led, Remote)</strong>  
 <small>June 2021 – September 2023</small></summary>
 
-- Analyzed large datasets using SQL and Python to identify patterns and trends
-- Created interactive dashboards using Tableau and Power BI to visualize research findings for stakeholders
-- Designed and implemented effective data collection methodologies
-Managed and cleaned large datasets to ensure accuracy and reliability of findings
+- Leveraged SQL and Python to identify data patterns and trends to support evidence-based policymaking.
+- Applied machine learning algorithms, including random forests and neural networks, to predict infrastructure project outcomes and optimize resource allocation.
+- Created interactive dashboards using Tableau and Power BI to present survey findings for stakeholders.
 </details>
 
 <details>
-<summary><strong>Science, Math & IT Educator – Various Educational Institutions</strong>  
+<summary><strong>Science, Math & IT Educator – Multiple Educational Institutions</strong>  
 <small>January 2013 – April 2024</small></summary>
 
-- Delivered technical instruction in Science, Mathematics, and ICT across Junior and Senior high school levels
-- Implemented varied teaching techniques to meet visual, kinesthetic, and auditory learners' needs
-- Encouraged innovative thinking and practical skills development among students
-- Provided comprehensive IT technical support to school administration
+- Delivered STEM-focused instruction (Science, Mathematics, ICT) across junior and senior high levels using interactive digital platforms.
+- Integrated learning management systems (Google Classroom, Microsoft Teams) to enhance blended learning.
+- Applied data analysis tools (Excel, Python basics) to demonstrate real-world problem solving in math and science.
+- Mentored students in practical ICT skills such as MS Office Suite, coding fundamentals, and responsible digital literacy.
 </details>
 
 :::

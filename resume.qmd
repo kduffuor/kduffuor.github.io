@@ -3,4 +3,10 @@ title: ""
 editor: visual
 ---
 
+<div class="mobile-download">
+  <a href="resume/Kwabena%20Duffuor%20Resume.pdf" download="Kwabena_Duffuor_Resume.pdf" class="btn-download">
+    📄📋 Download Resume
+  </a>
+</div>
+
 ![](resume/Kwabena%20Duffuor%20Resume.pdf){width="100%" height="800"}

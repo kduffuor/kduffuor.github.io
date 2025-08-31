@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Kduff™"
+  title: "kduff"
   favicon: favicon.ico
   navbar:
     pinned: true

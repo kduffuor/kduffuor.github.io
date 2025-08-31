@@ -1,3 +1,33 @@
+/* Page contents*/
+.page-rows-contents {
+    grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] auto [page-bottom] !important;
+}
+
+@media screen and (max-width: 1024pxpx) {
+    .page-rows-contents {
+        grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] auto [page-bottom] !important;
+    }
+}
+.nav-footer,
+.nav-footer-left,
+.nav-footer-center,
+.nav-footer-right {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-footer {
+    min-height: 2.0em !important;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-footer-left,
+  .nav-footer-right {
+    display: none !important;
+  }
+}
+/* Page contents Ends*/
+
 /* Sticky NavBar and slightly transparent*/
 .navbar {
   position: sticky;
@@ -52,6 +82,12 @@
         width: 2.5rem !important;
         height: 2.5rem !important;
         font-size: 1.25rem !important;
+    }
+}
+/* Mobile + Tablet View */
+@media screen and (max-width: 1024px) {
+    .quarto-about-trestles.column-page {
+        margin-top: 25px !important;
     }
 }
 /* About Ends */
@@ -265,3 +301,30 @@
   opacity: 1;
 }
 /* Creative Smooth Accordion Ends */
+
+/* Resume - Mobile download */
+.mobile-download {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-download {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-download:hover {
+  background: #0056b3;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 769px) {
+  .mobile-download { display: none; }
+}
+/* Resume - Mobile download Ends */

@@ -2,7 +2,7 @@
 title: ""
 description: ""
 date: 2025-08-27
-categories: [Professional Development & Mentorship, Leadership Experiences, Higher Education & Academia]
+categories: [Professional Development, Mentorship, Leadership Experiences]
 format: html
 ---
 
