@@ -5,7 +5,7 @@ editor: visual
 
 <div class="mobile-download">
   <a href="resume/Kwabena%20Duffuor%20Resume.pdf" download="Kwabena_Duffuor_Resume.pdf" class="btn-download">
-    📄📋 Download Resume
+    📋 Download Resume
   </a>
 </div>
 
