@@ -2,6 +2,9 @@
 title: ""
 editor: visual
 ---
+::: {.quote}
+*"For the most up-to-date version of my resume, please feel free to contact me directly."*
+:::
 
 <div class="mobile-download">
   <a href="resume/Kwabena%20Duffuor%20Resume.pdf" download="Kwabena_Duffuor_Resume.pdf" class="btn-download">
