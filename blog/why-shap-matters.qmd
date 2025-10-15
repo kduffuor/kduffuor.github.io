@@ -8,7 +8,7 @@ format: html
 
 # From Customer Service to AI Explainability: Why SHAP Matters in the Real World
 
-Working in customer service at Freedom as a credit check representative taught me one of the most valuable lessons of my career: people deserve to understand the decisions that affect their lives. Every day presented a familiar scenario that played out like clockwork across countless interactions.
+Working as a customer service representative at Freedom, where I handled credit checks and customer inquiries, taught me one of the most valuable lessons of my career: people deserve to understand the decisions that affect their lives. Every day presented a familiar scenario that played out like clockwork across countless interactions.
 
 ## The Daily Drama of Credit Decisions
 
