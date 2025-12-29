@@ -28,5 +28,14 @@
   },
   "resume.qmd": {
     "resume.html": "89ecd210"
+  },
+  "blog/digital-alchemy-at-northeastern.qmd": {
+    "digital-alchemy-at-northeastern.html": "a080606f"
+  },
+  "blog/getting-lost-in-canada.qmd": {
+    "getting-lost-in-canada.html": "7857b53a"
+  },
+  "blog/why-shap-matters.qmd": {
+    "why-shap-matters.html": "bfaabcf4"
   }
 }
