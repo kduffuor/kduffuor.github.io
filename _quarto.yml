@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Kduff™"
+  title: "kduff"
   favicon: favicon.ico
   navbar:
     pinned: true
@@ -20,6 +20,7 @@ website:
         text: Resume
   page-footer:
     center: "© 2025 Kwabena Duffuor — Built with 💕 [Quarto](https://quarto.org)"
+  google-analytics: "G-E4XBZLY3Z5"
 
 format:
   html:

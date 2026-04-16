@@ -21,6 +21,6 @@ Hello! I'm **Kwabena Duffuor**, an ML Engineer & Data Analyst passionate about t
 
 With a solid foundation in Information Technology Education, Computer Science, and Informatics, I specialize in leveraging data to support decision-making and drive operational efficiency. My professional journey spans over a decade in teaching, along with experience in research institutions and government organizations, where I've developed expertise in comprehensive data analysis and machine learning implementation.
 
-I have experience in Python, SQL, Excel, Power BI, Tableau, and key analytics libraries like Pandas, Matplotlib, and Scikit-learn. My technical toolkit also includes TensorFlow, PyTorch, and Keras for advanced machine learning applications. My recent work involves predictive modeling in healthcare, building business dashboards, and data storytelling.
+I have experience in Python, R, SQL, Excel, Power BI, Tableau, and key analytics libraries like Pandas, Matplotlib, and Scikit-learn. My technical toolkit also includes TensorFlow, PyTorch, and Keras for advanced machine learning applications. My recent work involves predictive modeling in healthcare, building business dashboards, and data storytelling.
 
 I'm always open to collaborating on innovative data projects, especially those in healthcare and business transformation. Feel free to explore my portfolio and connect with me.
