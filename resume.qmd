@@ -4,8 +4,12 @@ editor: visual
 ---
 
 ::: {.quote}
-*"For the most up-to-date version of my resume, please feel free to contact me directly."*
+*"The goal is to turn data into information, and information into insight."* -- Carly Fiorina.
 :::
 
-<iframe src="resume/Kwabena_Duffuor_CV_updated.pdf" width="100%" height="800px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+<iframe src="resume/Kwabena_Duffuor_Resume.pdf" width="100%" height="800px" style="border:none; border-radius:8px;">
+</iframe>
 
+::: {.quote}
+*For a tailored or most up-to-date version, feel free to reach out directly.*
+:::
