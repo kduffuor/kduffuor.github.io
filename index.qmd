@@ -17,10 +17,10 @@ about:
 css: styles.css
 ---
 
-Hello! I'm **Kwabena Duffuor**, an ML Engineer & Data Analyst passionate about transforming raw data into meaningful business insights.
+Hello! I'm **Kwabena Duffuor**, an ML Engineer & Data Analyst passionate about transforming raw data into meaningful insights that drive real-world impact.
 
-With a solid foundation in Information Technology Education, Computer Science, and Informatics, I specialize in leveraging data to support decision-making and drive operational efficiency. My professional journey spans over a decade in teaching, along with experience in research institutions and government organizations, where I've developed expertise in comprehensive data analysis and machine learning implementation.
+With a foundation spanning Information Technology Education, Computer Science, and Informatics, I specialise in predictive modelling, health analytics, and responsible AI development. My professional journey includes over a decade in education, research institutions, and government organisations, where I built expertise in data analysis, machine learning implementation, and evidence-based decision support.
 
-I have experience in Python, SQL, Excel, Power BI, Tableau, and key analytics libraries like Pandas, Matplotlib, and Scikit-learn. My technical toolkit also includes TensorFlow, PyTorch, and Keras for advanced machine learning applications. My recent work involves predictive modeling in healthcare, building business dashboards, and data storytelling.
+My technical work spans Python, SQL, Power BI, Tableau, and key analytics and machine learning libraries. Beyond the tools, I bring experience in AI governance, privacy-compliant AI design, and Software as a Medical Device (SaMD) frameworks.
 
-I'm always open to collaborating on innovative data projects, especially those in healthcare and business transformation. Feel free to explore my portfolio and connect with me.
+I am always open to collaborating on projects at the intersection of data, health, and responsible AI. Feel free to explore my portfolio and connect with me.

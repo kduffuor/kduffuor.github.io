@@ -3,17 +3,17 @@ title: ""
 page-layout: article
 
 listing:
-  type: grid
+  type: default
   contents: blog
   sort: "date desc"
-  fields: [title, date, description]
+  fields: [image, title, date, description]
   categories: true
 ---
 
 # Research & Reflections
 
 ::: {.quote}
-*"Writing is thinking made visible."* — William Zinsser
+*"Writing is thinking made visible."* -- William Zinsser
 :::
 
 ::: {.quote}

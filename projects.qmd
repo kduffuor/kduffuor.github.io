@@ -1,10 +1,38 @@
 # Featured Projects
 
 ::: {.quote}
-*"Information is the oil of the 21st century, and analytics is the combustion engine."* — Peter Sondergaard.
+*"Without data, you're just another person with an opinion."* -- W. Edwards Deming.
 :::
 
 ::: {.project-cards}
+
+::: {.project-card}
+![](img/projects/MaternalHealth.jpg)
+
+::: {.project-card-content}
+### Maternal Health Risk Prediction
+
+End-to-end maternal health risk classification with a FastAPI scoring endpoint, SHAP explainability, Docker containerisation, and CI/CD pipeline integration.
+
+**Tech:** Python, FastAPI, SHAP, Docker, CI/CD, etc.
+
+[GitHub](https://github.com/kduffuor/maternal-health-risk-shap){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+![](img/projects/PatientRecords.jpg)
+
+::: {.project-card-content}
+### Patient Health Records EDA
+
+Exploratory data analysis of a real-world healthcare dataset using Python and Pandas. Loaded, cleaned, and analysed the data, then built charts to uncover key patterns.
+
+**Tech:** Python, Pandas, Matplotlib, Seaborn, etc.
+
+[GitHub](https://github.com/kduffuor/patient-health-records-eda){target="_blank"}
+:::
+:::
 
 ::: {.project-card}
 ![](img/projects/FetalHealth.jpg)
@@ -12,40 +40,58 @@
 ::: {.project-card-content}
 ### Fetal Health ML Analysis
 
-Machine learning-based fetal health classification system using cardiotocography data. Compares multiple algorithms (XGBoost, Random Forest, MLP, Logistic Regression) for predicting fetal health status with 95.9% accuracy.
+Machine learning-based fetal health classification using cardiotocography data. Compares multiple algorithms (XGBoost, Random Forest, MLP, Logistic Regression) for predicting fetal health status with 95.9% accuracy.
 
 **Tech:** Python, Scikit-learn, Pandas, etc.
 
-[GitHub](https://github.com/kduffuor/Fetal-Health-ML-Analysis){target="_blank"}
+[GitHub](https://github.com/kduffuor/fetal-health-ml-analysis){target="_blank"}
 :::
 :::
 
 ::: {.project-card}
-![](img/projects/BrainTumor.jpg)
+![](img/projects/HeartDisease.jpg)
 
 ::: {.project-card-content}
-### Brain Tumor VGG16 Transfer Learning
+### CardioPredict Deep Learning SHAP
 
-Deep learning brain tumor classification using fine-tuned VGG16 with transfer learning. Achieves 89% accuracy in classifying MRI scans into 4 categories: glioma, meningioma, pituitary tumor, and no tumor.
+A comprehensive machine learning pipeline for cardiovascular disease prediction using deep neural networks with explainable AI capabilities.
 
-**Tech:** TensorFlow, PIL, NumPy, etc.
+**Tech:** TensorFlow, Scikit-learn, SHAP, etc.
 
-[GitHub](https://github.com/kduffuor/Brain-Tumor-VGG16-Transfer-Learning){target="_blank"}
+[GitHub](https://github.com/kduffuor/cardiopredict-deep-learning-shap){target="_blank"}
 :::
 :::
 
 ::: {.project-card}
-![](img/projects/PyHealth.jpg)
+![](img/projects/AIInsights.jpg)
 
 ::: {.project-card-content}
-### Python Refresher with Simulated Healthcare Data
+### AI Insights Assistant
 
-A Python fundamentals refresher using simulated healthcare datasets to demonstrate core programming concepts, data analysis, and visualization techniques.
+An AI-powered customer churn analytics dashboard with natural language querying built with Streamlit, Plotly, and HuggingFace LLMs.
 
-**Tech:** Pandas, Matplotlib, Seaborn, etc.
+**Tech:** Python, Plotly, Pandas, Streamlit, HuggingFace, etc.
 
-[GitHub](https://github.com/kduffuor/Python-Refresher-Simulated-Health){target="_blank"}
+[GitHub](https://github.com/kduffuor/ai-insights-assistant){target="_blank"}
 :::
 :::
 
+::: {.project-card}
+![](img/projects/TelecomChurn.jpg)
+
+::: {.project-card-content}
+### Telecom Customer Churn Analytics
+
+Analysing telecom customer churn using Python, SQL, and Power BI. Interactive dashboard and charts showcase insights to reduce churn.
+
+**Tech:** Python, SQL, Power BI, Data Visualisation, etc.
+
+[GitHub](https://github.com/kduffuor/telecom-customer-churn-analytics){target="_blank"}
+:::
+:::
+
+:::
+
+::: {.text-left}
+[View all projects on GitHub](https://github.com/kduffuor?tab=repositories){target="_blank"}
 :::

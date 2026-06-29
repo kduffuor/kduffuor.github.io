@@ -1,0 +1,146 @@
+---
+title: ""
+page-layout: article
+---
+
+# Gallery
+
+::: {.quote}
+*"Your network is your net worth."* -- Porter Gale.
+:::
+
+::: {.quote}
+Workshops, summits, presentations, and moments beyond the desk.
+:::
+
+::: {.gallery-featured}
+::: {.gallery-featured-item}
+<img src="img/gallery/capstone.jpg" alt="Wellbeing+ Capstone Project 2026" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-featured-content}
+### Wellbeing+ Capstone Project 2026
+
+Served as Technical and Team Lead, building a privacy-compliant Kotlin Multiplatform health app for Nytia Labs. Delivered full authentication, HIPAA audit logging, wearable integration, and CI/CD pipeline.
+
+**Category:** Capstone | **Year:** 2026
+:::
+:::
+:::
+
+::: {.gallery-grid}
+::: {.gallery-card}
+<div class="gallery-video-thumb" onclick="openVideo('img/gallery/graduation-video.mp4')">
+  <img src="img/gallery/graduation-video-thumb.jpg" alt="Graduation Ceremony 2026" />
+  <div class="gallery-play-btn">▶</div>
+</div>
+
+::: {.gallery-card-content}
+**Milestone**
+Graduation Ceremony, 2026
+:::
+:::
+
+::: {.gallery-card}
+<img src="img/gallery/graduation2026.jpg" alt="Graduation Ceremony 2026" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-card-content}
+**MPS Informatics**
+Graduation Ceremony, 2026
+:::
+:::
+
+::: {.gallery-card}
+<img src="img/gallery/graduation2023.jpg" alt="Graduation Moment 2023" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-card-content}
+**MPhil Computer Science**
+Graduation Ceremony, 2023
+:::
+:::
+
+::: {.gallery-card}
+<img src="img/gallery/cyberSSI.jpg" alt="Decoding Cybersecurity Event" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-card-content}
+**Technical Support**
+Decoding Cybersecurity Event, 2025
+:::
+:::
+
+::: {.gallery-card}
+<img src="img/gallery/projectManagementTeam.jpg" alt="Group photo with Ghana-Nigeria classmates" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-card-content}
+**Teamwork**
+Project Management Presentation, 2025
+:::
+:::
+
+::: {.gallery-card}
+<img src="img/gallery/workshopPLC.jpg" alt="Professional Learning Community (PLC) workshop at Adugyama SHS" onclick="openLightbox(this.src, this.alt)" />
+
+::: {.gallery-card-content}
+**Professional Development**
+PLC Workshop, 2023
+:::
+:::
+:::
+
+<!-- Image lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption" class="lightbox-caption"></div>
+</div>
+
+<!-- Video modal -->
+<div id="vid-overlay" class="vid-overlay" onclick="closeVideo()" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.95); z-index:9999; align-items:center; justify-content:center;">
+  <span class="close-btn" onclick="closeVideo()" style="position:fixed; top:1.5rem; right:2rem; color:#fff; font-size:2.5rem; font-weight:bold; cursor:pointer; z-index:10000; line-height:1; background:none; border:none; transition:transform 0.3s ease;">&#10005;</span>
+  <div onclick="event.stopPropagation()" style="display:flex; align-items:center; justify-content:center; width:100%; height:100%;">
+    <video id="vid-local" controls playsinline style="max-width:90vw; max-height:85vh; width:auto; height:auto; display:block; background:#000; border-radius:0.5rem; box-shadow:0 4px 30px rgba(0,0,0,0.5);"></video>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+  window.openLightbox = function(src, alt) {
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox-caption').textContent = alt || '';
+    document.getElementById('lightbox').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  };
+
+  window.closeLightbox = function() {
+    document.getElementById('lightbox').style.display = 'none';
+    document.getElementById('lightbox-img').src = '';
+    document.body.style.overflow = '';
+  };
+
+  window.openVideo = function(url) {
+    var vid = document.getElementById('vid-local');
+    var overlay = document.getElementById('vid-overlay');
+    vid.src = url;
+    vid.load();
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  };
+
+  window.closeVideo = function() {
+    var vid = document.getElementById('vid-local');
+    var overlay = document.getElementById('vid-overlay');
+    vid.pause();
+    vid.src = '';
+    overlay.style.display = 'none';
+    document.body.style.overflow = '';
+  };
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      window.closeLightbox();
+      window.closeVideo();
+    }
+  });
+
+});
+</script>
