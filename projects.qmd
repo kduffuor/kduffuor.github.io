@@ -26,9 +26,9 @@ End-to-end maternal health risk classification with a FastAPI scoring endpoint, 
 ::: {.project-card-content}
 ### Patient Health Records EDA
 
-Exploratory data analysis of a real-world healthcare dataset using Python and Pandas. Loaded, cleaned, and analysed the data, then built charts to uncover key patterns.
+Full EDA pipeline on a synthetic healthcare dataset using Python and pandas. Cleaned, analysed, and visualised the data to uncover key patterns across diagnosis, age, and treatment.
 
-**Tech:** Python, Pandas, Matplotlib, Seaborn, etc.
+**Tech:** Python, Pandas, Matplotlib, Seaborn
 
 [GitHub](https://github.com/kduffuor/patient-health-records-eda){target="_blank"}
 :::
